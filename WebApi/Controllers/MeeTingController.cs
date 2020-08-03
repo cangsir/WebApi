@@ -200,5 +200,15 @@ namespace WebApi.Controllers
         {
             return _dal.UptUserState(userIds);
         }
+
+
+        /// <summary>
+        /// 测试一
+        /// </summary>
+        /// <returns></returns>
+        public int CeshiOne()
+        {
+            return 666;
+        }
     }
 }
